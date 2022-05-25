@@ -35,13 +35,3 @@
     display: block;
     width: 100%;
 }
-#header .main-lists {
-    display: flex;
-    display: block;
-    margin-top: 60px;
-    padding: 20px;
-    border: 30px;
-}
-#header .main-lists-items {
-    align-items: flex-start;
-}
