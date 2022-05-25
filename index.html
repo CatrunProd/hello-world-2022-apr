@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello World</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <a href="#"></a><img src="img/paramount.jpg" alt="Paramount Pictures">
   </header>
   <main class="main">
-    <div>
+    <div class="main-lists">
       <p>List 1</p>
       <ul>
         <li>MK1</li>
@@ -29,7 +30,7 @@
         <li>MK3</li>
       </ol>
     </div>
-    <div>
+    <div class="main-buttons">
       <form action="https://www.google.com/">
         <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
         <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
@@ -42,36 +43,42 @@
     </div>
     <section id="blog">
       <div class="container">
-        <div style="display: flex;">
-          <div>
-            < </div>
-              <div>
-                <img style="width: 100px;" src="https://logodix.com/logo/530358.png" alt="new balance logo">
-              </div>
-              <div>
-                <img style="width: 100px;" src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Reebok_logo20.png"
-                  alt="reebok logo">
-              </div>
-              <div>
-                <img style="width: 100px;"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Original_Adidas_logo.svg/608px-Original_Adidas_logo.svg.png?20220310161614"
-                  alt="adidas logo">
-              </div>
-              <div>
-                <img style="width: 100px;" src="https://pngimg.com/uploads/nike/nike_PNG19.png" alt="nike logo">
-              </div>
-              <div>
-                <img style="width: 100px;" src="https://cdn.worldvectorlogo.com/logos/asics-1.svg" alt="asics logo">
-              </div>
-              <div>
-                >
-              </div>
+        <div class="slider" id="blog-slider">
+          <div class="item">
+            <div class="inner-item">
+              <img style="width: 100px;" src="img/blog/new-balance-logo.webp" alt="new balance logo">
+            </div>
           </div>
-          <div>
-            <h2 class="blog__h2">BLOG</h2>
-            <p class="blog__subheader">Read the latest articles from our experts.</p>
+          <div class="item">
+            <div class="inner-item">
+              <img style="width: 100px;" src="img/blog/Reebok-logo.png" alt="reebok logo">
+            </div>
+          </div>
+          <div class="item">
+            <div class="inner-item">
+              <img style="width: 100px;" src="img/blog/adidas-logo2.png" alt="adidas logo">
+            </div>
+          </div>
+          <div class="item">
+            <div class="inner-item">
+              <img style="width: 100px;" src="img/blog/nike-logo.png" alt="nike logo">
+            </div>
+          </div>
+          <div class="item">
+            <div class="inner-item">
+              <img style="width: 100px;" src="img/blog/asics-logo.svg" alt="asics logo">
+            </div>
           </div>
         </div>
+        <div class="wrapper">
+          <h2>BLOG<span>.</span></h2>
+          <div class="divider"></div>
+          <p class="subheader">Read the latest articles from our experts.</p>
+          <div class="blog-posts-container">
+            No blog posts yet...
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="footer">
