@@ -16,6 +16,14 @@
 #header h1 {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header .header-container-item .title-subheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #header .header-main-pic {
     margin: 0;
@@ -26,4 +34,14 @@
 #header .picture {
     display: block;
     width: 100%;
+}
+#header .main-lists {
+    display: flex;
+    display: block;
+    margin-top: 60px;
+    padding: 20px;
+    border: 30px;
+}
+#header .main-lists-items {
+    align-items: flex-start;
 }
