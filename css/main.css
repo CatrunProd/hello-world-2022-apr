@@ -1,4 +1,14 @@
+#main .main-container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 #main .main-lists {
     display: flex;
     margin: 20px;
+    border: 20px;;
+}
+#header .main-buttons {
+    display: flex;
+    margin: 20px;
+    padding: 60px;
 }
