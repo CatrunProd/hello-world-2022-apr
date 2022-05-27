@@ -48,7 +48,7 @@
     text-align: center;
 }
 #blog .blog-posts-container {
-    width: 100%;
+    width: auto;
     min-height: 450px;
     display: flex;
     align-items: center;
