@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
 :root {
-    background-color: rgb(231, 235, 238);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    --brand_color-main: #000000;
+    --brand_color-main-alt: #ffffff;
+    --brand_color-secondary: #f40106;
+    --brand_color-subtitle: rgba(34, 35, 35, 0.46);
+    --background-color: #222323;
+    --paragraph_text-color: #717474;
+    --line-color: #e0e0e0;
+    --input-text-color: rgba(34, 35, 35, 0.12);
+    color: var(--brand_color-main);
+    scroll-behavior: smooth;
 }
