@@ -1,0 +1,15 @@
+#footer-bottom {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 2% 4%;
+    width: auto;
+    height: 4em;
+    background-color: #222323;
+}
+
+#footer-bottom .bottom {
+    font-size: 10px;
+    text-align: justify;
+    color: #f40106;
+}

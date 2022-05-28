@@ -1,18 +1,18 @@
-#footer .footer-contacts-container {
+#footer-contacts-container {
     display: flex;
-    margin: 105px 0 60px;
+    margin: 105px 0 0 auto;
     max-width: 100%;
     padding: 2% 4%;
     width: auto;
     height: 150px;
     background-color: #717474;
 }
-#footer .footer-contacts-container .footer-contacts {
+#footer-contacts-container .footer-contacts {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#footer .footer-contacts-container .footer-contacts .contact-us {
+#footer-contacts-container .footer-contacts .contact-us {
     font-size: 1.2em;
     display: flex;
     align-items: center;
