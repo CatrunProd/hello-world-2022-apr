@@ -1,0 +1,8 @@
+.main-products-carousel {
+    min-height: 400px;
+}
+
+.main-products-carousel img {
+    width: 50%;
+    margin: auto;
+}
