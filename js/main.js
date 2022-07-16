@@ -1,5 +1,5 @@
 // Init blog slider
-$(function () {
+/*$(function () {
     $("#blog-slider").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -9,3 +9,4 @@ $(function () {
         nextArrow: '<div class="slick-next"><i class="fa-solid fa-chevron-right"></i></div>'
     })
 })
+*/

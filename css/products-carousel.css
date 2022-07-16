@@ -1,8 +1,10 @@
 .main-products-carousel {
     min-height: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.main-products-carousel img {
-    width: 50%;
-    margin: auto;
+.main-products-carousel .slide {
+    display: flex;
+    justify-content: space-between;
 }
