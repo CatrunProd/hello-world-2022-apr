@@ -1,8 +1,3 @@
-#blog .slider {
-    display: flex;
-    margin: 105px 0 60px;
-    max-width: 100%;
-}
 #blog-slider {
     display: flex;
     align-items: center;
